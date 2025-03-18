@@ -1,6 +1,6 @@
 import { api } from './api';
 
-import { User, UserResponse } from '@/types/user';
+import { UserResponse } from '@/types/user';
 
 export const signInUser = async (username: string) => {
   try {
