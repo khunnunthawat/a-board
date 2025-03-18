@@ -1,8 +1,10 @@
-import { type Config } from 'tailwindcss';
+import type { Config } from 'tailwindcss';
 
-const config: Config = {
+export default {
   content: [
-    './src/**/*.{js,ts,jsx,tsx,mdx}', // More concise content glob pattern
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     screens: {
@@ -47,8 +49,9 @@ const config: Config = {
         xl: '0px 20px 24px -4px rgba(16, 24, 40, 0.08), 0px 8px 8px -4px rgba(16, 24, 40, 0.03)',
       },
     },
+    debugScreens: {
+      position: ['bottom', 'left'],
+    },
   },
   plugins: [require('tailwindcss-debug-screens')],
-};
-
-export default config;
+} satisfies Config;
