@@ -94,7 +94,7 @@ const BlogDetail = () => {
   }, [id, router]);
 
   return (
-    <div className='max-w-[800px] w-full mx-auto debug-screens'>
+    <div className='max-w-[800px] w-full mx-auto'>
       <button
         onClick={() => router.back()}
         className='flex items-center w-11 h-11 rounded-full p-2.5 bg-green-100'
