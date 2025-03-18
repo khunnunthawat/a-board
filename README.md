@@ -1,6 +1,6 @@
 # 🛳 aBoard - Next.js Frontend
 
-<img src="" alt="aBoard">
+<img src="https://github.com/user-attachments/assets/40ff5a41-b1e6-4a92-a277-eb7160441a97" alt="aBoard">
 
 ## 📝 Introduction
 
