@@ -1,4 +1,9 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+@plugin "tailwindcss-debug-screens" {
+  classname: 'debug-screens';
+  position: 'bottom, left';
+  prefix: 'screen: ';
+}
 
 :root {
   --background: #ffffff;
